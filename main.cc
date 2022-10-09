@@ -1,3 +1,4 @@
+#include <glad/gl.h>
 #include <GLFW/glfw3.h>
 
 int main(void)
@@ -35,3 +36,4 @@ int main(void)
     glfwTerminate();
     return 0;
 }
+

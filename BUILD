@@ -4,6 +4,7 @@ cc_binary(
         "main.cc"
     ],
     deps = [
-        "@glfw//:glfw"
+        "//third_party/glfw:glfw",
+        "//third_party/glad:glad"
     ]
 )
