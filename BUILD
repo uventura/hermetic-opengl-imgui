@@ -4,8 +4,13 @@ cc_binary(
         "main.cc"
     ],
     deps = [
+        "//third_party/imgui:imgui",
         "//third_party/glfw:glfw",
         "//third_party/glad:glad",
         "//third_party/x11:x11",
     ],
+    includes = [
+        "external/imgui",
+        "external/imgui/backends"
+    ]
 )
