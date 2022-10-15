@@ -8,5 +8,17 @@ cc_library(
         "include/KHR/khrplatform.h"
     ],
     visibility = ["//visibility:public"],
-    strip_include_prefix = "include"
+    strip_include_prefix = "include",
+    linkopts = [
+        "-ldl",
+        "-lpthread",
+        "-fpic",
+        "-fPIC",
+        "-m64"
+    ],
+    copts = [
+        "-fpic",
+        "-fPIC",
+        "-m64"
+    ],
 )
