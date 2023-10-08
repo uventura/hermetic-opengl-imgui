@@ -2,6 +2,7 @@
 
 WIN32_DEFINES = [
     "_GLFW_WIN32",
+    "GLFW_INVALID_CODEPOINT"
 ]
 
 WIN32_HDRS = [
