@@ -7,7 +7,8 @@ cc_binary(
         "//third_party/imgui:imgui",
         "//third_party/glfw:glfw",
         "//third_party/glad:glad",
-        "//third_party/x11:x11",
+        "//third_party/imnodes:imnodes",
+        # "//third_party/x11:x11",
     ],
     includes = [
         "external/imgui",

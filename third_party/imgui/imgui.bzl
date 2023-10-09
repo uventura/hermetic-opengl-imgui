@@ -4,6 +4,7 @@ def imgui():
     new_git_repository(
         name = "imgui",
         remote = "https://github.com/ocornut/imgui",
-        branch = "docking",
+        # branch = "docking",
+        commit = "1d8e48c161370c37628c4f37f3f87cb19fbcb723",
         build_file = "//third_party/imgui:imgui.BUILD",
     )
